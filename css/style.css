@@ -1,0 +1,41 @@
+html, body{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  position: fixed;
+}
+
+.slidey-menu:hover {
+  background-color: blue;
+}
+
+.slidey-menu {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -49%;
+  transition:all 1s;
+
+}
+
+.slidey-menu.open {
+  left: 0;
+  transition:all 1s;
+}
+
+.side-menu-button {
+  position: absolute;
+  z-index: 20;
+  background-color: red;
+}
+
+h2 {
+  padding-top: 50px;
+
+}
